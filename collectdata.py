@@ -1,9 +1,9 @@
 import requests
 import json
 
-durakno = input("Durak Numarası: ")
+durakno = input("Station Number: ")
 
-url = f"http://88.255.141.66/mblSrv14/service.asp?FNC=Otobusler&VER=3.1.0&LAN=tr&DURAK={durakno}"
+url = f"http://88.255.141.66/mblSrv14/service.asp?FNC=Otobusler&VER=3.1.0&LAN=en&DURAK={durakno}"
 
 headers = {
   'User-Agent': 'EGO Genel Mudurlugu-EGO Cepte-3.1.0',
